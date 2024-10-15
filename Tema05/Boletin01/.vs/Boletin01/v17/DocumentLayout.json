@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema05\\boletin01\\ejercicio03\\components\\pages\\saludo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|solutionrelative:ejercicio03\\components\\pages\\saludo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema05\\boletin01\\ejercicio03\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|solutionrelative:ejercicio03\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema05\\boletin01\\ejercicio03\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|solutionrelative:ejercicio03\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema05\\boletin01\\ejercicio03\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{09E643E1-B459-4B75-A419-97D192E3AC97}|Ejercicio03\\Ejercicio03.csproj|solutionrelative:ejercicio03\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Ejercicio03\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Ejercicio03\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T12:22:57.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Ejercicio03\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "Ejercicio03\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T12:18:13.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Ejercicio03\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Ejercicio03\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T12:17:32.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Saludo.razor",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Pages\\Saludo.razor",
+              "RelativeDocumentMoniker": "Ejercicio03\\Components\\Pages\\Saludo.razor",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema05\\Boletin01\\Ejercicio03\\Components\\Pages\\Saludo.razor",
+              "RelativeToolTip": "Ejercicio03\\Components\\Pages\\Saludo.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T12:16:57.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

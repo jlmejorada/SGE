@@ -1,0 +1,21 @@
+﻿@page "/saludo"
+@attribute [StreamRendering]
+
+<PageTitle>Saludo</PageTitle>
+
+<h1>Saludo</h1>
+
+<button id="boton" @onclick="saludar">Enviar salu2</button>
+
+<p>Introduce tu nombre</p>
+
+<input type="text" id="name" name="name" @bind-value=nombre @bind-value:event="onimput" required minlength="4" maxlength="8" size="10" />
+
+
+@code {
+    String nombre = "";
+
+    String mensaje = "Buenos días " + nombre + " que pases un maravilloso dia";
+
+}
+
