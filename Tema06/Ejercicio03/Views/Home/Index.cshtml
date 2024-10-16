@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hora Actual</title>
+    </head>
+    <body>
+        @{
+            var now = DateTime.Now;
+            var hours = now.Hour.ToString("D2");
+            var minutes = now.Minute.ToString("D2");
+        }
+        <h1 id="greeting">Hola, son las @($"{hours}:{minutes}")</h1>
+        <p id="timeInfo">
+            @if (now.Hour >= 12)
+            {
+                <text>Ya hemos pasado de las 12 del mediodía.</text>
+            }
+            else
+            {
+                <text>Aún no hemos pasado de las 12 del mediodía.</text>
+            }
+        </p>
+    </body>
+</html>

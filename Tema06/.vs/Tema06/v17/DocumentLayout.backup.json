@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EA7D02B-DF0B-425F-9B6A-95CAA7E08733}|Pruebas\\Pruebas.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema06\\pruebas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EA7D02B-DF0B-425F-9B6A-95CAA7E08733}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2EE4F67-B3AF-4512-9CA1-D38F0DADE802}|Ejercicio04\\Ejercicio04.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema06\\ejercicio04\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2EE4F67-B3AF-4512-9CA1-D38F0DADE802}|Ejercicio04\\Ejercicio04.csproj|solutionrelative:ejercicio04\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EA7D02B-DF0B-425F-9B6A-95CAA7E08733}|Pruebas\\Pruebas.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema06\\pruebas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5EA7D02B-DF0B-425F-9B6A-95CAA7E08733}|Pruebas\\Pruebas.csproj|solutionrelative:pruebas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{23F657AB-E438-41F4-9E2B-09AD539A5E98}|Ejercicio03\\Ejercicio03.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema06\\ejercicio03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23F657AB-E438-41F4-9E2B-09AD539A5E98}|Ejercicio03\\Ejercicio03.csproj|solutionrelative:ejercicio03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Pruebas\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pruebas\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Pruebas\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Pruebas\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio04\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ejercicio04\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio04\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Ejercicio04\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T11:59:43.95Z",
+              "WhenOpened": "2024-10-16T10:34:27.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Pruebas\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Pruebas\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Pruebas\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Pruebas\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T11:52:34.19Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio03\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ejercicio03\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio03\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Ejercicio03\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T10:29:19.565Z",
               "EditorCaption": ""
             }
           ]
