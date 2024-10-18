@@ -11,13 +11,11 @@
     </head>
     <body>
         @{
-            var now = DateTime.Now;
-            var hours = now.Hour.ToString("D2");
-            var minutes = now.Minute.ToString("D2");
+            var fechaActual = DateTime.Now;
         }
-        <h1 id="greeting">Hola, son las @($"{hours}:{minutes}")</h1>
+        <h1 id="greeting">Hola, son las @($"{fechaActual.Hour}:{fechaActual.Minute}")</h1>
         <p id="timeInfo">
-            @if (now.Hour >= 12)
+            @if (fechaActual.Hour >= 12)
             {
                 <text>Ya hemos pasado de las 12 del mediodía.</text>
             }
