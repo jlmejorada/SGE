@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2EE4F67-B3AF-4512-9CA1-D38F0DADE802}|Ejercicio04\\Ejercicio04.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema06\\ejercicio04\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2EE4F67-B3AF-4512-9CA1-D38F0DADE802}|Ejercicio04\\Ejercicio04.csproj|solutionrelative:ejercicio04\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{23F657AB-E438-41F4-9E2B-09AD539A5E98}|Ejercicio03\\Ejercicio03.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\sge\\tema06\\ejercicio03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23F657AB-E438-41F4-9E2B-09AD539A5E98}|Ejercicio03\\Ejercicio03.csproj|solutionrelative:ejercicio03\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio04\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Ejercicio04\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio04\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Ejercicio04\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAA3AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio03\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ejercicio03\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\SGE\\Tema06\\Ejercicio03\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Ejercicio03\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T11:55:08.194Z",
+              "WhenOpened": "2024-10-22T11:11:14.966Z",
               "EditorCaption": ""
             }
           ]
