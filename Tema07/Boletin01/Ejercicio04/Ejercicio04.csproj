@@ -6,10 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\DAL\" />
-    <Folder Include="Models\ENT\" />
-    <Folder Include="Models\VM\" />
-  </ItemGroup>
-
 </Project>

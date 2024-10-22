@@ -1,14 +1,14 @@
 ENT
 ---------------
 	ClsPersona
-	+ String Nombre (get : set)
-	+ String Apellidos (get : set)
-	+ Int Edad (get : set)
-	+ Int IdDepartamento (get : set)
+	+ String Nombre { get; set; }
+	+ String Apellidos { get; set; }
+	+ Int Edad { get; set; }
+	+ Int IdDepartamento { get; set; }
 
 	ClsDepartamento
-	+ Int IdDepartamento (get)
-	+ String Nombre (get : set)
+	+ Int IdDepartamento { get; }
+	+ String Nombre { get; set; }
 =========================================
 DAL
 ----------------
@@ -17,8 +17,8 @@ DAL
 =========================================
 VM
 ----------------
-	ClsEditarPersonaVMclsPersona
-		List<ClsDepartamentos>departamentos(get)
+	ClsEditarPersonaVM  : clsPersona
+		List<ClsDepartamentos>departamentos{ get; }
 
 	ClsEditarPersonaVM(){
 		departamentos = ClsListados.ObtenerDepartamentos()
