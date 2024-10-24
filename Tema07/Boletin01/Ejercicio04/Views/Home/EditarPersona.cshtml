@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    
+}
+@using Ejercicio04.Models.ENT
+@using Ejercicio04.Models.VM
+@model EditarPersonaVM
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Editar Persona</title>
+    </head>
+    <body>
+        <h1>Editar Datos de la Persona</h1>
+
+        <form method="post">
+            <input type="hidden" name="Id"  />
+
+            <p>
+                <label>Nombre:</label>
+                @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control" })
+            </p>
+            <p>
+                <label>Apellidos:</label>
+                @Html.TextBoxFor(m => m.Apellidos, new { @class = "form-control" })
+            </p>
+            <p>
+                <label>Edad:</label>
+                @Html.TextBoxFor(m => m.Edad, new { @class = "form-control" })
+            </p>
+
+            <p>
+                <label>Departamento:</label>
+                @Html.DropDownListFor(m => m.IdDepartamento,
+                         new SelectList(Model.departamentos, "IdDepartamento", "Nombre"),
+                         "----------------------", 
+                         new { @class = "form-control" }) 
+            </p>
+            <button type="submit">Guardar Cambios</button>
+        </form>
+    </body>
+    </html>
