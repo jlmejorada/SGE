@@ -1,0 +1,17 @@
+﻿@using Entidades
+@model List<Entidades.ClsPersona> 
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Listado de personas</h1>
+    <ul>
+        @foreach (ClsPersona persona in Model)
+        {
+            <li>
+                @persona.Nombre @persona.Apellidos
+            </li>
+        }
+    </ul>
+</div>
