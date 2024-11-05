@@ -15,6 +15,7 @@ namespace BL
             List<ClsPersona> miListado = ClsListadosDAL.listadoCompletoPersonasDAL();
 
             //TODO Comprobar si es jueves y antes o no de las 13:30
+                
 
             return miListado;
 
