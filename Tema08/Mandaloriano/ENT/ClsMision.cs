@@ -1,12 +1,12 @@
-﻿namespace Mandaloriano.ENT
+﻿namespace ENT
 {
     public class ClsMision
     {
         #region Atributos
 
         public int Id { get; }
-        public String Titulo { get; set; }
-        public String Descripcion { get; set; }
+        public string Titulo { get; set; }
+        public string Descripcion { get; set; }
         public double Recompensa { get; set; }
 
         #endregion

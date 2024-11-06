@@ -1,7 +1,8 @@
-﻿using Mandaloriano.ENT;
+﻿using DAL;
+using ENT;
 using System.Runtime.CompilerServices;
 
-namespace Mandaloriano.Models.BL
+namespace BL
 {
     public class ListaMisionBL
     {

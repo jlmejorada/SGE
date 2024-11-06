@@ -1,7 +1,7 @@
-﻿using Mandaloriano.ENT;
+﻿using ENT;
 using System.Collections.ObjectModel;
 
-namespace Mandaloriano.Models.DAL
+namespace DAL
 {
     public class ListaMisionDAL
     {
