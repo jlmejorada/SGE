@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mandaloriano", "Mandaloriano\Mandaloriano.csproj", "{2ECFB336-C35B-404F-A07A-C89778A03F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ENT", "ENT\ENT.csproj", "{F40273BF-718C-4C48-82D1-27F9FD924541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENT", "ENT\ENT.csproj", "{F40273BF-718C-4C48-82D1-27F9FD924541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{116521EF-4396-4211-86F6-4DDBB04D1300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{116521EF-4396-4211-86F6-4DDBB04D1300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BL", "BL\BL.csproj", "{F188B33D-8339-4382-897B-CA01E12CEA88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL", "BL\BL.csproj", "{F188B33D-8339-4382-897B-CA01E12CEA88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mando", "Mando\Mando.csproj", "{65012E3E-F98F-43AF-BAC9-5B23FBA6282B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2ECFB336-C35B-404F-A07A-C89778A03F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2ECFB336-C35B-404F-A07A-C89778A03F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2ECFB336-C35B-404F-A07A-C89778A03F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2ECFB336-C35B-404F-A07A-C89778A03F96}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F40273BF-718C-4C48-82D1-27F9FD924541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F40273BF-718C-4C48-82D1-27F9FD924541}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F40273BF-718C-4C48-82D1-27F9FD924541}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{F188B33D-8339-4382-897B-CA01E12CEA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F188B33D-8339-4382-897B-CA01E12CEA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F188B33D-8339-4382-897B-CA01E12CEA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65012E3E-F98F-43AF-BAC9-5B23FBA6282B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65012E3E-F98F-43AF-BAC9-5B23FBA6282B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65012E3E-F98F-43AF-BAC9-5B23FBA6282B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65012E3E-F98F-43AF-BAC9-5B23FBA6282B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
