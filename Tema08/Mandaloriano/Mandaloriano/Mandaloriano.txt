@@ -1,0 +1,26 @@
+CAPA Entidades: Define los que es una misión y sus constructores
+	ClsMision : 	+ int Id { get; }
+					+ String Titulo { get; set;}
+					+ String Descripcion { get; set;}
+					+ double Recompensa { get; set; }
+			
+			ClsMision ()
+			ClsMision (Titulo, Descripcion, Recompensa)
+
+
+
+Capa DAL: Carga todas las misiones "sacadas de la BDD"
+			ListaMisionDAL:	+ List<ClsMision> listaMisionesDAL() 
+							+ ClsMision unaMisionDAl()
+			 
+
+Capa BL: Carga las misiones según sea o no a partir de las 12 de la noche
+			ListaMisionBL: 	+ List<ClsMision> listaMisionesBL() 
+							+ ClsMision unaMisionBL()
+
+
+UI: Carga una lista de misiones y permite seleccionar una de estas para mostrar la descripción
+			ListaMisionMV:	+ List<ClsMision>? misiones (null = duermiendo, {} = sin misiones)
+							+ Mision misionSeleccionada
+
+	
