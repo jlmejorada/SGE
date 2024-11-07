@@ -23,18 +23,15 @@ namespace BL
         }
 
         /// <summary>
-        /// En nuestras politicas de empresa, tenemos que no se mostraran los datos despues de las 12 de la noche hasta las 8 de la mañana. Si se puede mostrar, llama a unaMisionDAL pasandole un id.
+        /// En nuestras politicas de empresa, tenemos que se mostraran los datos. Si se puede mostrar, llama a unaMisionDAL pasandole un id.
         /// </summary>
         /// <param name="id"></param>
         /// <returns>ClsMision</returns>
-        public ClsMision unaMisionBL(int id)
+        public static ClsMision unaMisionBL(int id)
         {
             ClsMision miMision = new ClsMision();
 
-            if (DateTime.Now.Hour > 8)
-            {
-                miMision = DAL.ListaMisionDAL.unaMisionDAL(id);
-            }
+            miMision = DAL.ListaMisionDAL.unaMisionDAL(id);
 
             return miMision;
         }

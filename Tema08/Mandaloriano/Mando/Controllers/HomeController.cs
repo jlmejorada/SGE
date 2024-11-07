@@ -1,4 +1,6 @@
+using BL;
 using Mando.Models;
+using Mando.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,27 +8,19 @@ namespace Mando.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        
 
         public IActionResult Index()
         {
-            return View();
+            ListaMisionesVM vm = new ListaMisionesVM();
+            return View(vm);
         }
-
-        public IActionResult Privacy()
+        [HttpPost]
+        public IActionResult Index(int MisionSelect)
         {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            ListaMisionesVM vm = new ListaMisionesVM(MisionSelect);
+            ENT.ClsMision selecc = ListaMisionBL.unaMisionBL(MisionSelect, vm.ListaMisionMV);
+            return View(vm);
         }
     }
 }
