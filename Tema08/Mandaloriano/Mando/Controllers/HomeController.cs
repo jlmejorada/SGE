@@ -20,6 +20,8 @@ namespace Mando.Controllers
         {
             ListaMisionesVM vm = new ListaMisionesVM(MisionSelect);
             ENT.ClsMision selecc = ListaMisionBL.unaMisionBL(MisionSelect, vm.ListaMisionMV);
+            vm.Descripcion = selecc.Descripcion;
+            vm.Recompensa = selecc.Recompensa;
             return View(vm);
         }
     }

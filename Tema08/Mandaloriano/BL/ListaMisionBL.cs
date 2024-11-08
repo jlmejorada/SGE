@@ -27,11 +27,9 @@ namespace BL
         /// </summary>
         /// <param name="id"></param>
         /// <returns>ClsMision</returns>
-        public static ClsMision unaMisionBL(int id)
+        public static ClsMision unaMisionBL(int id, List<ClsMision> lista)
         {
-            ClsMision miMision = new ClsMision();
-
-            miMision = DAL.ListaMisionDAL.unaMisionDAL(id);
+            ClsMision miMision = DAL.ListaMisionDAL.unaMisionDAL(id, lista);
 
             return miMision;
         }

@@ -8,7 +8,14 @@
         <select id="Mision" name="MisionSelect">
             @foreach (var ClsMision in Model.ListaMisionMV)
             {
+                @if (ClsMision.Id == Model.Id)
+                {
+                    <option selected value="@ClsMision.Id">@ClsMision.Titulo</option>
+                }
+                else
+                {
                 <option value="@ClsMision.Id">@ClsMision.Titulo</option>
+                }
             }
         </select>
         <button type="submit">Seleccionar</button>

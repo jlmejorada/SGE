@@ -23,11 +23,10 @@ namespace DAL
         /// </summary>
         /// <param name="id"></param>
         /// <returns>ClsMision? resMision</returns>
-        public static ClsMision unaMisionDAL(int id)
+        public static ClsMision unaMisionDAL(int id, List<ClsMision> lista)
         {
-            ClsMision? resMision = new ClsMision();
-            List<ClsMision> lista = listaMisionesDAL();
-            resMision = lista.Find(mision => mision.Id == id);
+            ClsMision resMision = lista.Find(mision => mision.Id == id);
+
             return resMision;
         }
     }
