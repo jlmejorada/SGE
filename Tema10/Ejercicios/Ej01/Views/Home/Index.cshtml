@@ -1,0 +1,16 @@
+﻿@model bool?
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Buenos días</h1>
+    <br />
+    <form method="post" action="/Home/Index2">
+        <button type="submit">Conectar con la base de datos</button>
+    </form>
+    <br />
+    <p>@ViewBag.Conexion</p>
+</div>
