@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej01", "Ej01\Ej01.csproj", "{8B2829D0-8931-4594-AA59-E9AC79F497DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej01", "Ej01\Ej01.csproj", "{8B2829D0-8931-4594-AA59-E9AC79F497DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej01Maui", "Ej01Maui\Ej01Maui.csproj", "{39795792-E939-44BC-A4EB-FC8F089C5890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionDAL", "ConexionDAL\ConexionDAL.csproj", "{B931DB46-909C-4C82-8922-EB8272BE353B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,16 @@ Global
 		{8B2829D0-8931-4594-AA59-E9AC79F497DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B2829D0-8931-4594-AA59-E9AC79F497DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B2829D0-8931-4594-AA59-E9AC79F497DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39795792-E939-44BC-A4EB-FC8F089C5890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39795792-E939-44BC-A4EB-FC8F089C5890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39795792-E939-44BC-A4EB-FC8F089C5890}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{39795792-E939-44BC-A4EB-FC8F089C5890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39795792-E939-44BC-A4EB-FC8F089C5890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39795792-E939-44BC-A4EB-FC8F089C5890}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B931DB46-909C-4C82-8922-EB8272BE353B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B931DB46-909C-4C82-8922-EB8272BE353B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B931DB46-909C-4C82-8922-EB8272BE353B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B931DB46-909C-4C82-8922-EB8272BE353B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
