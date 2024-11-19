@@ -46,12 +46,36 @@ namespace Ej01Maui.VM
             SqlConnection miConexion = new SqlConnection();
 
             try
+<<<<<<< Updated upstream
             {
                 miConexion.ConnectionString = CLSConexion.CadenaDeConexion();
                 miConexion.Open();
 
                 respuesta = miConexion.State.ToString();
                 OnPropertyChanged("Respuesta");
+=======
+
+            {
+                miConexion = new SqlConnection();
+
+                miConexion.ConnectionString = CLSConexion.CadenaDeConexion();
+                miConexion.Open();
+
+                respuesta = miConexion.State.ToString();
+                OnPropertyChanged("Respuesta");
+
+
+            }
+            catch (Exception ex)
+            {
+                respuesta = "Hubo un problema";
+                OnPropertyChanged("Respuesta");
+            }
+            finally
+            {
+                miConexion.Close();
+            }
+>>>>>>> Stashed changes
 
                 lista = listadoPersonas.ListaPersonas();
                 OnPropertyChanged("Lista");
@@ -68,7 +92,5 @@ namespace Ej01Maui.VM
         }
         #endregion
 
-
-
-     }
+    }
 }
