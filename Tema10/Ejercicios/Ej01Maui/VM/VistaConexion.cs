@@ -46,16 +46,7 @@ namespace Ej01Maui.VM
             SqlConnection miConexion = new SqlConnection();
 
             try
-<<<<<<< Updated upstream
-            {
-                miConexion.ConnectionString = CLSConexion.CadenaDeConexion();
-                miConexion.Open();
-
-                respuesta = miConexion.State.ToString();
-                OnPropertyChanged("Respuesta");
-=======
-
-            {
+            { 
                 miConexion = new SqlConnection();
 
                 miConexion.ConnectionString = CLSConexion.CadenaDeConexion();
@@ -68,24 +59,11 @@ namespace Ej01Maui.VM
             }
             catch (Exception ex)
             {
-                respuesta = "Hubo un problema";
-                OnPropertyChanged("Respuesta");
-            }
-            finally
-            {
-                miConexion.Close();
-            }
->>>>>>> Stashed changes
-
                 lista = listadoPersonas.ListaPersonas();
                 OnPropertyChanged("Lista");
             }
-            catch
+            finally 
             {
-                respuesta = "Ha ocurrido un problema";
-                OnPropertyChanged("Respuesta");
-            }
-            finally {
 
                 miConexion.Close();
             }

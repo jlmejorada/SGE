@@ -13,4 +13,18 @@
     </form>
     <br />
     <p>@ViewBag.Conexion</p>
+    <tbody>
+        @foreach (Persona persona in Model)
+        {
+            <tr>
+                <td>@persona.Id</td>
+                <td>@persona.Nombre</td>
+                <td>@persona.Apellido</td>
+                <td>@persona.FechaNac</td>
+                <td>@persona.Edad</td>
+            </tr>
+        }
+    </tbody>
 </div>
+
+</table>

@@ -1,22 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-<<<<<<< Updated upstream
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vmodel="clr-namespace:Ej01Maui.VM"
-=======
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml
-             xmlns:vmodel="clr-namespace:Ejercicio01.VM"
->>>>>>> Stashed changes
              x:Class="Ej01Maui.MainPage">
 
     <ContentPage.BindingContext>
         <vmodel:VistaConexion/>
     </ContentPage.BindingContext>
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     <ScrollView>
         <VerticalStackLayout Padding="30,0">
             <Label Text="Bon dia"/>
