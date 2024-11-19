@@ -1,26 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:Ej01Maui.VM"
              x:Class="Ej01Maui.MainPage">
 
+    <ContentPage.BindingContext>
+        <vmodel:VistaConexion/>
+    </ContentPage.BindingContext>
+
+
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Label
-            Text="Buenos días!"
-            Style="{StaticResource Headline}"
-            SemanticProperties.HeadingLevel="Level1" />
-
+        <VerticalStackLayout Padding="30,0">
+            <Label Text="Bon dia"/>
             <Button
-            x:Name="pideConexion"
             Text="Conectar con la base de datos" 
-            SemanticProperties.Hint="Pide conexion a una BDD"
-            Command="{Binding pulsaBoton}"
-            HorizontalOptions="Fill" />
-
-            <Label Text="{Bindind Resultado}"/>
-            
+            Command="{Binding PulsaBotonCommand}"/>
+            <Label Text="{Binding Respuesta}"/>
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <ListView ItemsSource="{Binding Lista}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Label Text="{Binding Nombre}" FontSize="40"/>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 
