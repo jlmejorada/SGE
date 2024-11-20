@@ -1,4 +1,5 @@
-﻿@model bool?
+﻿@using ENT;
+@model List<ClsPersona>
 
 @{
     ViewData["Title"] = "Home Page";
@@ -13,18 +14,22 @@
     </form>
     <br />
     <p>@ViewBag.Conexion</p>
-    <tbody>
-        @foreach (Persona persona in Model)
-        {
-            <tr>
-                <td>@persona.Id</td>
-                <td>@persona.Nombre</td>
-                <td>@persona.Apellido</td>
-                <td>@persona.FechaNac</td>
-                <td>@persona.Edad</td>
-            </tr>
-        }
-    </tbody>
-</div>
 
-</table>
+    @if (Model!=null)
+    {
+        @foreach (ClsPersona persona in Model)
+        {
+            <ul>
+                <p> ID @persona.Id</p>
+                <li>Nombre @persona.Nombre</li>
+                <li>Apellidos @persona.Apellidos</li>
+                <li>Telefono @persona.Telefono</li>
+                <li>Direccion @persona.Direccion</li>
+                <li>Foto @persona.Foto</li>
+                <li>Fecha Nacimiento @persona.FechaNacimiento</li>
+                <li>IDDepartamento @persona.IDDepartamento</li>
+                <hr />
+            </ul>
+        }
+     }
+</div>

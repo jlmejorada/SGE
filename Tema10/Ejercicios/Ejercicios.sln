@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej01Maui", "Ej01Maui\Ej01Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConexionDAL", "ConexionDAL\ConexionDAL.csproj", "{B931DB46-909C-4C82-8922-EB8272BE353B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENT", "ENT\ENT.csproj", "{BD4F385E-1144-41D9-BA65-06041D03B660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ENT", "ENT\ENT.csproj", "{BD4F385E-1144-41D9-BA65-06041D03B660}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScaffoldingASP", "ScaffoldingASP\ScaffoldingASP.csproj", "{2CFB8606-59FC-4CAD-A931-7CC41808AC7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{BD4F385E-1144-41D9-BA65-06041D03B660}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD4F385E-1144-41D9-BA65-06041D03B660}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD4F385E-1144-41D9-BA65-06041D03B660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CFB8606-59FC-4CAD-A931-7CC41808AC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFB8606-59FC-4CAD-A931-7CC41808AC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFB8606-59FC-4CAD-A931-7CC41808AC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFB8606-59FC-4CAD-A931-7CC41808AC7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

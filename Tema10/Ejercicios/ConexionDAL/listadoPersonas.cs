@@ -65,6 +65,8 @@ namespace ConexionDAL
 
                         oPersona.Direccion = (string)miLector["Direccion"];
 
+                        oPersona.Foto = (string)miLector["Foto"];
+
                         oPersona.Telefono = (string)miLector["Telefono"];
 
                         oPersona.IDDepartamento = (int)miLector["IDDepartamento"];
@@ -80,9 +82,7 @@ namespace ConexionDAL
                 miConexion.Close();
 
             }
-
             catch (SqlException exSql)
-
             {
 
                 throw exSql;
@@ -92,5 +92,76 @@ namespace ConexionDAL
             return listadoPersonas;
 
         }
+
+        public static ClsPersona BuscaPersona(int id)
+        {
+            SqlConnection miConexion = new SqlConnection();
+
+            List<ClsPersona> listadoPersonas = new List<ClsPersona>();
+
+            SqlCommand miComando = new SqlCommand();
+
+            SqlDataReader miLector;
+
+            ClsPersona oPersona = new ClsPersona();
+
+            miConexion.ConnectionString = CLSConexion.CadenaDeConexion();
+
+            
+
+            try
+
+            {
+
+                miConexion.Open();
+
+
+                miComando.Parameters.AddWithValue("@id", id);
+                miComando.CommandText = "SELECT * FROM personas WHERE ID = @id";
+                miComando.Connection = miConexion;
+
+                miLector = miComando.ExecuteReader();
+                if (miLector.Read())
+                {
+                    
+                    //Nombre, Apellidos, Telefono, Direccion, Foto, FechaNacimiento, IDDepartamento
+                    oPersona = new ClsPersona();
+
+                    oPersona.Id = (int)miLector["ID"];
+
+                    oPersona.Nombre = (string)miLector["Nombre"];
+
+                    oPersona.Apellidos = (string)miLector["Apellidos"];
+
+                    if (miLector["FechaNacimiento"] != System.DBNull.Value)
+
+                    { oPersona.FechaNacimiento = (DateTime)miLector["FechaNacimiento"]; }
+
+                    oPersona.Direccion = (string)miLector["Direccion"];
+
+                    oPersona.Foto = (string)miLector["Foto"];
+
+                    oPersona.Telefono = (string)miLector["Telefono"];
+
+                    oPersona.IDDepartamento = (int)miLector["IDDepartamento"];
+
+                }
+
+                miLector.Close();
+
+                miConexion.Close();
+
+            }
+            catch (SqlException exSql)
+            {
+
+                throw exSql;
+
+            }
+
+
+            return oPersona;
+        }
+
     }
 }

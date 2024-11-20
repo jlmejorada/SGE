@@ -1,4 +1,6 @@
+using ConexionDAL;
 using Ej01.Models;
+using ENT;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using System.Diagnostics;
@@ -17,6 +19,7 @@ namespace Ej01.Controllers
         {
             String estado = "";
             SqlConnection miConexion = new SqlConnection();
+            List<ClsPersona> lista = new List<ClsPersona>();
 
             try
             {
@@ -25,11 +28,15 @@ namespace Ej01.Controllers
                 miConexion.Open();
                 estado = miConexion.State.ToString();
 
+
+                lista = listadoPersonas.ListaPersonas();
+
             } catch (Exception ex) {
                 estado = "Hubo un error";
             }
+            
             ViewBag.Conexion = estado;
-            return View("Index");
+            return View("Index", lista);
         }
     }
 }
